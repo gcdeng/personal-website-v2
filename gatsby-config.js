@@ -38,8 +38,8 @@ module.exports = {
             url: `https://github.com/gcdeng`,
           },
           {
-            name: `Facebook`,
-            url: `https://www.facebook.com/ericdenggc`,
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/gcdeng/`,
           },
         ],
       },
