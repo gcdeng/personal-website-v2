@@ -4,7 +4,6 @@
   "description": "Eric Deng personal website and blog.",
   "version": "1.0.0",
   "author": "Eric Deng",
-  "license": "0BSD",
   "starter-name": "gatsby-starter-minimal-blog",
   "scripts": {
     "build": "gatsby build",
