@@ -9,9 +9,9 @@ module.exports = {
   siteMetadata: {
     siteTitle: author,
     siteTitleAlt: author,
-    siteUrl: `https://gcdeng.com/`,
-    siteLanguage: `zh-TW`,
     siteHeadline: author,
+    siteUrl: "/",
+    siteLanguage: `zh-TW`,
     siteDescription: siteDescription,
     author: author
   },
