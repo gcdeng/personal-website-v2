@@ -3,11 +3,17 @@ require(`dotenv`).config({
 })
 
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
-
+const siteDescription = 'Eric Deng personal website and blog.';
+const author = 'Eric Deng';
 module.exports = {
   siteMetadata: {
-    siteTitle: `Eric Deng`,
-    siteTitleAlt: `Eric Deng`,
+    siteTitle: author,
+    siteTitleAlt: author,
+    siteUrl: `https://gcdeng.com/`,
+    siteLanguage: `zh-TW`,
+    siteHeadline: author,
+    siteDescription: siteDescription,
+    author: author
   },
   plugins: [
     {
@@ -54,9 +60,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Eric Deng`,
-        short_name: `Eric Deng`,
-        description: `Eric Deng personal website and blog.`,
+        name: author,
+        short_name: author,
+        description: siteDescription,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
