@@ -10,7 +10,7 @@ module.exports = {
     siteTitle: author,
     siteTitleAlt: author,
     siteHeadline: author,
-    siteUrl: "/",
+    siteUrl: `https://gcdeng.github.io/`,
     siteLanguage: `zh-TW`,
     siteDescription: siteDescription,
     author: author
