@@ -57,17 +57,22 @@ ericdenggc@gmail.com
 
 QNAP是一家總部位於台灣的NAS設備製造商，業務範圍涵蓋軟體研發、硬體設計及自有生產線，目前專注於提供儲存、網通及智慧視訊監控解決方案。
 
-我所在的團隊負責開發智慧影像分析應用，包含人臉辨識、人流偵測等，產品是執行於NAS上的容器化網站應用程式。我負責開發及維護網站前端功能，主要使用的技術是Vue.js，需與UI/UX設計師、後端工程師、網站可靠性工程師、品質保證工程師、機器學習工程師及產品經理合作。
+我所在的團隊負責開發智慧影像分析應用，包含人臉辨識、人流偵測等，產品是執行於NAS上的容器化網站應用程式。我的主要工作是開發及維護網站前端功能，使用的技術是Vue.js，需與UI/UX設計師、後端工程師、網站可靠性工程師、品質保證工程師、機器學習工程師及產品經理合作。
 
 **Rewarding jobs**
 
 - 規劃網站架構，包含路由、頁面、元件、UI狀態管理
 - 建構元件庫及基本模板提供多個產品共同使用
 - 研究新技術、評估開源套件並應用於產品中
-- 大資料量頁面的效能優化
+- 大資料量頁面的效能優化，成功提高頁面速度50％
+  - 降低JS, CSS檔案大小
+  - 與後端工程師討論API減少回傳資料大小
+  - 實作惰性載入減少http request、圖片大小
+  - 評估套件可否移除或更換
+  - 使用devtool分析渲染效能
 - 部署及開發環境建置
 - 動態切換多國語言
-- 即時的資料或UI狀態更新(long polling, websocket)
+- 即時的資料或UI狀態更新(Long polling, Websocket)
 - 串接影像串流，同時於影像畫面上畫出特定圖形、文字、圖片
 - 開發繪圖工具，使用者可在影像縮圖上繪製線段、矩形、多邊形等圖形
 - 開發表單設定介面，各種表單元件、欄位驗證、照片上傳功能(從本地、NAS、Webcam、影像串流畫面截圖)
@@ -81,20 +86,21 @@ QNAP是一家總部位於台灣的NAS設備製造商，業務範圍涵蓋軟體�
 **Products**
 
 - *<a href="https://www.qnap.com/solution/qvr-face/zh-tw/" target="_blank">QVR Face</a>*  
-  加入團隊後第一個接手的專案，初期使用Ext.js及原生的JavaScript為主，陸續導入Vue.js, Gulp, Babel, ESLint, PostCSS等，因此更熟悉JavaScript也獲得許多重構傳統網站架構的經驗。  
+  加入團隊後第一個接手的專案，初期使用Ext.js及原生的JavaScript為主，陸續導入Vue.js, Gulp, Babel, ESLint, PostCSS等構建工具，重構元件架構，改善頁面載入速度。    
   產品主要功能包含分析即時影像串流中的人臉，辨識已註冊的個人檔案或陌生人以及人物特徵（性別、年齡、表情），自訂觸發條件發出事件通知，應用場景如門禁系統、會員識別系統、出勤管理等。  
   Ext.js, jQuery, Vue.js, SVG, Canvas, D3.js, ECharts, Socket.io, i18n, Gulp, Babel, ESLint, PostCSS, autoprefixer, minifier
 
 - *QVR Human*  
-  使用Vue.js開發的SPA，此產品的前端開發主要負責人，從零開始建置到完成專案， 評估框架及套件的選用，規劃全部要開發的元件後評估工時，分配開發工作給其他前端工程師一起合作，撰寫API文件提供後端工程師參考與討論。  
+  使用Vue.js開發的SPA，此產品的前端開發主要負責人，從零開始建置一直到完成專案， 評估框架及套件的選用，討論UI/UX設計規格制定，規劃所有要開發的元件後評估工時，分配工作給其他前端工程師一起合作開發，撰寫API文件提供後端工程師參考與討論，串接後端API完成需求功能。  
   產品主要功能包含辨識即時影像串流中經過特定區域的人流，提供統計資料圖表，應用場景如百貨零售賣場，分析顧客行走路線、櫃位人流量。  
   Vue.js, Vuex, Vue Router, Vue CLI, Vue-i18n, SCSS, Element UI, ECharts, Canvas, Fabric.js, Socket.io, Axios, Webpack, Babel, ESLint, Prettier
 
 - *QVR Smart Search*  
-  使用Vue.js開發的SPA，主要功能為串接多個監控產品，提供影像辨識功能。需顯示串接產品的狀態，包含安裝進度、產品資訊、認證授權、錯誤訊息等，依賴Vuex管理複雜且需要即時更新的UI元件狀態。  
+  使用Vue.js開發的SPA，單獨負責所有前端功能，參與規劃、設計、開發、串接API，使用Vuex管理複雜且需要即時更新的UI元件狀態。  
+  產品主要功能為串接多個監控產品，提供影像辨識功能。需顯示串接產品的狀態，包含安裝進度、產品資訊、認證授權、錯誤訊息等。  
   Vue.js, Vuex, Vue Router, Vue CLI, Vue-i18n, SCSS, Element UI, Axios, Webpack, Babel, ESLint, Prettier
 
-- *多項POC專案*  
+- *三項POC專案*  
   包含前端及後端開發。
 
 #### Personal Projects
